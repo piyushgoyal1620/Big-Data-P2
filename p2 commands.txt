@@ -1,0 +1,33 @@
+q1->How many no of customers take trip from same location:
+s->spark.sql("select Pin_codes,count(pin_codes) as no_of_users from admin group by pin_codes order by no_of_users Desc").show()
+ 
+
+q2->what is priority for each ride category from each location.
+s->spark.sql("select source,Ride_category,count(Ride_category) as priority from admin group by source,Ride_category order by source,priority Desc ").show()
+ 
+q3->what are the longest locations of customer travelled.
+s->spark.sql("select source,destination,miles from admin where miles=(select max(miles) from admin)").show()
+
+q4->Drivers who completed ride with non -vaccinated customers
+s->spark.sql("select Riders_Name from admin where Vaccine_cus!='YES'").show(10)
+
+q5->How many  vaccinated customers have travelled 
+s->spark.sql("select Vaccine_cus,count(Vaccine_cus) as _count from admin group by Vaccine_cus having Vaccine_cus ='YES'").show()
+
+q6->Customers who completed ride with non -vaccinated Drivers
+s->spark.sql("select Name from admin where Vaccine_Ri!='YES'").show(10)
+
+q7-> who is the customer completed highest no of rides.
+s->spark.sql("select Name,count(Name) as rides from admin group by Name order by rides Desc limit 1").show()
+
+q8->who is the driver completed highest no of rides.
+s->spark.sql("select Riders_Name,count(Riders_Name) as Drives from admin group by Riders_Name order by Drives Desc limit 1").show()
+
+q9->what are first  10 age groups which uses uber services mostly.
+s->spark.sql("select age,count(age) as _count from admin group by age order by _count Desc  limit 10").show()
+
+q10->what is the count of  different destination locations from same start location and also completed ride 
+s->spark.sql("select source,destination,count(destination) as _count from admin group by source,destination,Status  having Status='Arrived' order by source,_count Desc ").show(50)
+
+q11->what is the most expensive Drive
+s->spark.sql("select Name,Source as start_location, Destination, Est_Costing as Raid_cost from admin where Est_Costing=(select max(Est_Costing) from admin)").show()

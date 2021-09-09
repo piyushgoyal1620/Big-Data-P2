@@ -8,3 +8,8 @@ So we have 2 different types of syntaxes here.
 
 ![image](https://user-images.githubusercontent.com/52343801/132662928-3a36f918-47ce-459c-bb7a-c254f30abe1e.png)
 
+
+
+
+![image](https://user-images.githubusercontent.com/52343801/132662993-af9a66a2-d2dd-4e5e-a05e-c6b9444d3529.png)
+

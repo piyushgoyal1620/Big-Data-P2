@@ -17,3 +17,8 @@ So we have 2 different types of syntaxes here.
 
 
 ![image](https://user-images.githubusercontent.com/52343801/132663096-eba257f5-1b35-49a4-b084-f23b5389af27.png)
+
+
+
+![image](https://user-images.githubusercontent.com/52343801/132663161-f24259a0-6f78-4242-a504-1a78c3401fe9.png)
+

@@ -22,3 +22,7 @@ So we have 2 different types of syntaxes here.
 
 ![image](https://user-images.githubusercontent.com/52343801/132663161-f24259a0-6f78-4242-a504-1a78c3401fe9.png)
 
+
+
+
+![image](https://user-images.githubusercontent.com/52343801/132675779-015576d7-b4f7-460b-b725-20ba9f58b80a.png)

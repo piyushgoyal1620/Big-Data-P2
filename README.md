@@ -13,3 +13,7 @@ So we have 2 different types of syntaxes here.
 
 ![image](https://user-images.githubusercontent.com/52343801/132662993-af9a66a2-d2dd-4e5e-a05e-c6b9444d3529.png)
 
+
+
+
+![image](https://user-images.githubusercontent.com/52343801/132663096-eba257f5-1b35-49a4-b084-f23b5389af27.png)

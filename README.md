@@ -5,3 +5,6 @@ After thinking 360 degrees we partitioned this data into 3 DataSets(Admin, Passe
 We were done this project over the integration with PySpark with Jupyter Notebook and using databricks cloud resources and perform all queries by using PySpark and SparkSQL also.
 So we have 2 different types of syntaxes here.
 
+
+![image](https://user-images.githubusercontent.com/52343801/132662928-3a36f918-47ce-459c-bb7a-c254f30abe1e.png)
+

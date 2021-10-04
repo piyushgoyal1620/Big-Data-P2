@@ -73,22 +73,22 @@ Data Collection & pre-Processing
 1. Grab the data from Kaggle and Pre-processed the data in CSV file format.
 2. import findspark using command
 
-    import findspark
-    
-    findspark.init()
-    
-    findspark.find()
+            import findspark
+
+            findspark.init()
+
+            findspark.find()
     
 3. create SparkSession and make a Data Frame.
 
 
-    from pyspark.sql import SparkSession
+            from pyspark.sql import SparkSession
 
-    spark = SparkSession.builder.getOrCreate()
+            spark = SparkSession.builder.getOrCreate()
 
-    df = spark.sql("select 'spark' as hello ")
+            df = spark.sql("select 'spark' as hello ")
 
-    df.show()
+            df.show()
 
 ## Contributors
 

@@ -47,3 +47,15 @@ DataFrames
 
 File Formats
 
+## Keynotes
+
+Integrate with WebApp and Deploy this on AWS.
+
+Providing earnings for passengers.
+
+Secure admin DB Admin.
+
+Grab the all data in real time Scenario.
+
+Make more flexible & we will integrate with UI.
+

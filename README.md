@@ -9,10 +9,17 @@ So we have 2 different types of syntaxes here.
 ## Tools and Technologies
 
 Kaggle ( Real time data)
+
 Jupyter Notebook ( used cases )
+
 PySpark ( for Quries )
+
 GitHub ( Deploy Project )
+
 MS ( Excel --> File formats )
+
 MS ( Power Point --> Presentation )
+
 MS ( Word --> Project flow )
+
 NotePad ( JSON )

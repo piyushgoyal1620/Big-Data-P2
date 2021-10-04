@@ -59,3 +59,12 @@ Grab the all data in real time Scenario.
 
 Make more flexible & we will integrate with UI.
 
+## Roles and Responsibilities 
+
+DataBase Management
+
+Quality & Deployment Manager
+
+Data Analytics 
+
+Data Collection & pre-Processing

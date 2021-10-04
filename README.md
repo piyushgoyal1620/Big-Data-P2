@@ -5,7 +5,6 @@ After thinking 360 degrees we partitioned this data into 3 DataSets(Admin, Passe
 We were done this project over the integration with PySpark with Jupyter Notebook and using databricks cloud resources and perform all queries by using PySpark and SparkSQL also.
 So we have 2 different types of syntaxes here.
 
-
 ## Tools and Technologies
 
 Kaggle ( Real time data)
@@ -68,3 +67,13 @@ Quality & Deployment Manager
 Data Analytics 
 
 Data Collection & pre-Processing
+
+## Contributors
+
+Piyush Goyal
+
+Aysha Muktesar
+
+Surya Dev Gedela
+
+Bhawana Priya

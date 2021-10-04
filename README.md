@@ -89,7 +89,15 @@ Data Collection & pre-Processing
             df = spark.sql("select 'spark' as hello ")
 
             df.show()
+4. Import SparkSQL functions and load the data
 
+
+            from pyspark.sql.functions import *
+
+            p = spark.read.csv(r"E:\Jupyter Noteii\Python Basics\Revature\P2\DS\Main_DS\Admin_data.csv",header=True)
+            p.show(3)
+            
+5. 
 ## Contributors
 
 Piyush Goyal

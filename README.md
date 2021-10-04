@@ -23,3 +23,17 @@ MS ( Power Point --> Presentation )
 MS ( Word --> Project flow )
 
 NotePad ( JSON )
+
+
+## Features
+
+Effective Discount on Uber Wallet & Trusted Contact
+
+Display Vaccination Status for hygiene and safety
+
+Average rating for Driver 
+
+Free and Acquire data
+
+Estimate Cost According to the ride Category
+

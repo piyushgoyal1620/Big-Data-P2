@@ -97,7 +97,27 @@ Data Collection & pre-Processing
             p = spark.read.csv(r"E:\Jupyter Noteii\Python Basics\Revature\P2\DS\Main_DS\Admin_data.csv",header=True)
             p.show(3)
             
-5. 
+5. For showing the view of Spark.SQL
+
+            p.printSchema()
+
+6. a single used cases 
+            p.show(2)
+            
+            p.withColumn("Status", when(p.Status == "Arrived","cancelled").otherwise(p.Status)).show(2)
+7. used tempview and change the name
+
+            p.createOrReplaceTempView("pa")
+
+8. for performance tunning ( partitioning and bucketing)
+
+            rest=s.read.csv("C:/Users/USER/Desktop/Revature/cleanedData_final.csv",inferSchema=True,header=True)
+            rest.write.partitionBy('Discount').saveAsTable("restaurant_partition1")
+
+            rest.write.bucketBy(20, "rest_type").saveAsTable("restaurant_bucket1")
+
+            
+
 ## Contributors
 
 Piyush Goyal

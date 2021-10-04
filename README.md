@@ -37,3 +37,13 @@ Free and Acquire data
 
 Estimate Cost According to the ride Category
 
+## list of Concepts
+
+SparkSQL
+
+SparkSession
+
+DataFrames
+
+File Formats
+

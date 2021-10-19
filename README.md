@@ -126,4 +126,3 @@ Aysha Muktesar
 
 Surya Dev Gedela
 
-Bhawana Priya
